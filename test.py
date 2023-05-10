@@ -1,3 +1,6 @@
-from decouple import config
+import panel as pn
+import bokeh
+pn.extension()
 
-print(config('OPENAI_API_KEY'))
+
+pn.panel('Hello Worlds')
